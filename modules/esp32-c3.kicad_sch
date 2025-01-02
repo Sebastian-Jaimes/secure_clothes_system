@@ -2365,13 +2365,13 @@
 		(uuid "8e6f403a-be32-4b14-8029-0f0e4dd5d013")
 	)
 	(junction
-		(at 78.74 92.71)
+		(at 83.82 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9902cf9d-08a7-4052-8f70-7615e71076c9")
 	)
 	(junction
-		(at 58.42 92.71)
+		(at 63.5 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e85a028-5ed8-475d-b706-617fc0e7d5af")
@@ -2562,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 95.25) (xy 46.99 95.25)
+			(xy 50.8 95.25) (xy 52.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 102.87) (xy 58.42 105.41)
+			(xy 63.5 102.87) (xy 63.5 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 92.71) (xy 72.39 92.71)
+			(xy 83.82 92.71) (xy 77.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 95.25) (xy 78.74 92.71)
+			(xy 83.82 95.25) (xy 83.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 92.71) (xy 58.42 92.71)
+			(xy 50.8 92.71) (xy 63.5 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 92.71) (xy 58.42 95.25)
+			(xy 63.5 92.71) (xy 63.5 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2952,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 92.71) (xy 64.77 92.71)
+			(xy 63.5 92.71) (xy 69.85 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3202,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 96.52) (xy 46.99 95.25)
+			(xy 52.07 96.52) (xy 52.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3412,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 102.87) (xy 78.74 105.41)
+			(xy 83.82 102.87) (xy 83.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3512,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 92.71) (xy 123.19 92.71)
+			(xy 83.82 92.71) (xy 123.19 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3857,6 +3857,180 @@
 			(justify left bottom)
 		)
 		(uuid "ed44cbf8-43e4-49d1-8a03-ad51f107a157")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 209.55 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "003150b9-2032-4b7f-b83f-b81bbcd4a730")
+		(property "Reference" "R3"
+			(at 212.09 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 212.09 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 210.566 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Descrip" "RES SMD 10K OHM 1% 1/10W 0402"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "ERJ-2RKF1002X"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROVIDER" "Digikey"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,00720"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W, 1/10W"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "±1%"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CURRENT" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1314bda0-2c33-4e88-8679-6b1bf26a1429")
+		)
+		(pin "2"
+			(uuid "e5c5eead-761f-4090-bc50-285fe0c214d7")
+		)
+		(instances
+			(project "secure_clothes_system"
+				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -4916,7 +5090,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 105.41 0)
+		(at 63.5 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4925,7 +5099,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b64f9d1-c645-4535-ae67-8b83ad5f5f1e")
 		(property "Reference" "#PWR08"
-			(at 58.42 111.76 0)
+			(at 63.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5108,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 110.49 0)
+			(at 63.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 105.41 0)
+			(at 63.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +5125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 105.41 0)
+			(at 63.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 105.41 0)
+			(at 63.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 63.5 0)
 			(effects
 				(font
@@ -5522,7 +5696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -5540,7 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -5549,7 +5723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "CL10B105KP8NNNC"
+		(property "Mfg Part #" "GRM155Z71A105KE01D"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -5576,7 +5750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,00800"
+		(property "Price" "0,01280"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -5585,7 +5759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "CAP CER 1UF 10V X7R 0603"
+		(property "Descrip" "CAP CER 1UF 10V X7R 0402"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -6021,7 +6195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 96.52 0)
+		(at 52.07 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6030,7 +6204,7 @@
 		(fields_autoplaced yes)
 		(uuid "815fbe83-081d-4ed6-ab60-6de5817b95f3")
 		(property "Reference" "#PWR07"
-			(at 46.99 102.87 0)
+			(at 52.07 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 101.6 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 96.52 0)
+			(at 52.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 96.52 0)
+			(at 52.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 96.52 0)
+			(at 52.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,16 +6611,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.84 72.39 0)
+		(at 250.19 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8eca4f7c-d8e9-4e31-adcd-35dff2f2659c")
-		(property "Reference" "C15"
-			(at 247.65 68.5799 0)
+		(uuid "8647d91b-9851-484d-b79c-c5cb51730026")
+		(property "Reference" "C16"
+			(at 254 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +6628,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 247.65 71.1199 0)
+			(at 254 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,8 +6636,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 244.8052 76.2 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 251.1552 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,8 +6645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
-			(at 243.84 72.39 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +6655,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 243.84 72.39 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,8 +6663,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 243.84 72.39 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,8 +6672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "CL10B105KP8NNNC"
-			(at 243.84 72.39 0)
+		(property "Mfg Part #" "GRM155Z71A105KE01D"
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6682,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 243.84 72.39 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6691,7 @@
 			)
 		)
 		(property "PROVIDER" "Digikey"
-			(at 243.84 72.39 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,8 +6699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,00800"
-			(at 243.84 72.39 0)
+		(property "Price" "0,01280"
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,8 +6708,8 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "CAP CER 1UF 10V X7R 0603"
-			(at 243.84 72.39 0)
+		(property "Descrip" "CAP CER 1UF 10V X7R 0402"
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6718,7 @@
 			)
 		)
 		(property "PLACE" ""
-			(at 243.84 72.39 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6726,7 @@
 			)
 		)
 		(property "CURRENT" ""
-			(at 243.84 72.39 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6561,7 +6734,7 @@
 			)
 		)
 		(property "TC" "X7R"
-			(at 247.65 73.6599 0)
+			(at 254 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6743,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 243.84 72.39 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6751,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 243.84 72.39 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +6759,7 @@
 			)
 		)
 		(property "VOLTAGE" "10V"
-			(at 247.65 76.1999 0)
+			(at 254 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,15 +6768,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d7263b2-46a8-4a27-b6d9-193fcd70194f")
+			(uuid "feafc8fd-c16c-4f31-9bea-b2ebd76ed279")
 		)
 		(pin "2"
-			(uuid "b777518e-ab83-4616-9374-231a01334b27")
+			(uuid "cd55f43d-95cc-4ad4-9f54-cd399ee112a8")
 		)
 		(instances
 			(project "secure_clothes_system"
 				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6611,7 +6784,7 @@
 	)
 	(symbol
 		(lib_id "Device:PCB_Antenna_Shield")
-		(at 43.18 92.71 90)
+		(at 48.26 92.71 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6621,7 +6794,7 @@
 		(fields_autoplaced yes)
 		(uuid "91a8072e-b8a7-4224-88ca-aeb84d06cfdf")
 		(property "Reference" "AE1"
-			(at 40.64 74.93 90)
+			(at 45.72 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6802,7 @@
 			)
 		)
 		(property "Value" "PCB_Antenna_Shield"
-			(at 40.64 77.47 90)
+			(at 45.72 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6810,7 @@
 			)
 		)
 		(property "Footprint" "RF_Antenna:PCB_ANTENNA_2,4GHz_50Ohm"
-			(at 40.64 92.71 0)
+			(at 45.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 92.71 0)
+			(at 45.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6828,7 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6837,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6846,7 @@
 			)
 		)
 		(property "Mfg Part #" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6855,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6864,7 @@
 			)
 		)
 		(property "PROVIDER" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6873,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6882,7 @@
 			)
 		)
 		(property "Descrip" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +6891,7 @@
 			)
 		)
 		(property "PLACE" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6899,7 @@
 			)
 		)
 		(property "VOLTAGE" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,7 +6907,7 @@
 			)
 		)
 		(property "CURRENT" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6915,7 @@
 			)
 		)
 		(property "TC" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6923,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +6931,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 43.18 92.71 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +7022,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 105.41 0)
+		(at 83.82 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6858,7 +7031,7 @@
 		(fields_autoplaced yes)
 		(uuid "95ff81e4-21ec-4a78-aba3-a18a3d972a23")
 		(property "Reference" "#PWR010"
-			(at 78.74 111.76 0)
+			(at 83.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +7040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 110.49 0)
+			(at 83.82 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,7 +7048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 105.41 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +7057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 105.41 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +7066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 105.41 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 251.206 119.634 90)
 			(effects
 				(font
@@ -7015,7 +7188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -7033,7 +7206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "RES 10K OHM 1% 1/10W 0603"
+		(property "Descrip" "RES SMD 10K OHM 1% 1/10W 0402"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -7042,7 +7215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -7051,7 +7224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "RC0603FR-0710KL"
+		(property "Mfg Part #" "ERJ-2RKF1002X"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -7069,7 +7242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,00612"
+		(property "Price" "0,00720"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -7155,7 +7328,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 68.58 92.71 90)
+		(at 73.66 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7164,7 +7337,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2a24394-e4ef-43da-a94d-4775a517ced5")
 		(property "Reference" "L2"
-			(at 68.58 87.63 90)
+			(at 73.66 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7345,7 @@
 			)
 		)
 		(property "Value" "2.5nH"
-			(at 68.58 90.17 90)
+			(at 73.66 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7353,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7362,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0015.pdf"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7371,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7380,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +7389,7 @@
 			)
 		)
 		(property "Mfg Part #" "LQP03TN2N5B02D"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7398,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7407,7 @@
 			)
 		)
 		(property "PROVIDER" "Digikey"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7416,7 @@
 			)
 		)
 		(property "Price" "0,02203"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7425,7 @@
 			)
 		)
 		(property "Descrip" "FIXED IND 2.5NH 500MA 200MOHM SM"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +7434,7 @@
 			)
 		)
 		(property "PLACE" ""
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7442,7 @@
 			)
 		)
 		(property "VOLTAGE" ""
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +7450,7 @@
 			)
 		)
 		(property "CURRENT" "500mA"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,7 +7459,7 @@
 			)
 		)
 		(property "TC" ""
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7294,7 +7467,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7475,7 @@
 			)
 		)
 		(property "Tol" "±0.1nH"
-			(at 68.58 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,353 +7493,6 @@
 			(project "secure_clothes_system"
 				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 66.04 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a45d8d70-03e3-43c9-be00-02f7ab051b0e")
-		(property "Reference" "C4"
-			(at 66.04 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6pF"
-			(at 66.04 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.85 122.2248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Walsin Technology Corporation"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "0603N6R0D500CT"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROVIDER" "Digikey"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0,00738"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Descrip" "CAP CER 6PF 50V C0G/NP0 0603"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLACE" ""
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" "50V"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CURRENT" ""
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TC" "C0G, NP0"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol" "±0.5pF"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74b1bd89-fd49-4736-9ddf-2d106d79fece")
-		)
-		(pin "1"
-			(uuid "f1b3aee8-c8ec-4068-a9bb-5ff9be87201c")
-		)
-		(instances
-			(project ""
-				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 209.55 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4ef5984-7b69-4c15-ac37-09dd433b9e34")
-		(property "Reference" "C14"
-			(at 213.36 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 213.36 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 210.5152 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KO8NNNC_Spec.pdf"
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "CL10A105KO8NNNC"
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Descrip" "CAP CER 1UF 16V X5R 0603"
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROVIDER" "Digikey"
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0,00720"
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 213.36 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "TC" "X5R"
-			(at 213.36 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLACE" ""
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol" "±10%"
-			(at 209.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3227473-8470-4f48-bbd4-4878a76a1cf6")
-		)
-		(pin "2"
-			(uuid "3f45aa04-ae02-450f-b3cb-f169e26f1eee")
-		)
-		(instances
-			(project "secure_clothes_system"
-				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7698,7 +7524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.074 141.986 90)
 			(effects
 				(font
@@ -7707,7 +7533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7725,7 +7551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7734,7 +7560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "RC0603FR-0722RL"
+		(property "Mfg Part #" "ERJ-2RKF22R0X"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7761,7 +7587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,00408"
+		(property "Price" "0,00720"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7770,7 +7596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "RES 22 OHM 1% 1/10W 0603"
+		(property "Descrip" "RES SMD 22 OHM 1% 1/10W 0402"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7847,7 +7673,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 140.97 59.69 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7860,7 +7685,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10uF"
@@ -7869,11 +7694,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 140.0048 63.5 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 141.9352 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +7706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/926/CL_Series_MLCC_ds.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61A106ME11-01A.pdf"
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -7899,7 +7724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -7908,7 +7733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,02060"
+		(property "Price" "0,01680"
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -7923,7 +7748,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -7935,7 +7760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "CL21A106KPFNNNE"
+		(property "Mfg Part #" "GRM155R61A106ME11D"
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -7950,7 +7775,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "PROVIDER" "Digikey"
@@ -7962,7 +7787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "CAP CER 10UF 10V X5R 0805"
+		(property "Descrip" "CAP CER 10UF 10V X5R 0402"
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -7995,12 +7820,13 @@
 				)
 			)
 		)
-		(property "Tol" ""
+		(property "Tol" "±20%"
 			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8020,7 +7846,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 99.06 0)
+		(at 63.5 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8029,7 +7855,7 @@
 		(fields_autoplaced yes)
 		(uuid "acb597b5-e5bf-43a1-87d2-579e4f6c4595")
 		(property "Reference" "C3"
-			(at 62.23 97.7899 0)
+			(at 67.31 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +7864,7 @@
 			)
 		)
 		(property "Value" "1.5pF"
-			(at 62.23 100.3299 0)
+			(at 67.31 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +7873,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 59.3852 102.87 0)
+			(at 64.4652 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +7882,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E1R5BA01-01.pdf"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +7891,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,7 +7900,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +7909,7 @@
 			)
 		)
 		(property "Mfg Part #" "GRM0335C1E1R5BA01D"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +7918,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +7927,7 @@
 			)
 		)
 		(property "PROVIDER" "Digikey"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +7936,7 @@
 			)
 		)
 		(property "Price" "0,00578"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +7945,7 @@
 			)
 		)
 		(property "Descrip" "CAP CER 1.5PF 25V C0G/NP0 0201"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +7954,7 @@
 			)
 		)
 		(property "PLACE" ""
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +7962,7 @@
 			)
 		)
 		(property "VOLTAGE" "25V"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +7971,7 @@
 			)
 		)
 		(property "CURRENT" ""
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +7979,7 @@
 			)
 		)
 		(property "TC" "C0G, NP0"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +7988,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +7996,7 @@
 			)
 		)
 		(property "Tol" "±0.1pF"
-			(at 58.42 99.06 0)
+			(at 63.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,6 +8014,178 @@
 			(project "secure_clothes_system"
 				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2ae38dd-876f-4a3d-8e04-3a84fa98d3fb")
+		(property "Reference" "C4"
+			(at 66.04 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6pF"
+			(at 66.04 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 69.85 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "CC0402BRNPO9BN6R0"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROVIDER" "Digikey"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,00839"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Descrip" "CAP CER 6PF 50V C0G/NPO 0402"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT" ""
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TC" "C0G, NP0"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol" "±0.1pF"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e1eec4f-284e-4d16-9848-ea926ac84312")
+		)
+		(pin "1"
+			(uuid "c264d8e3-47ab-4896-8b39-b1991724d7a1")
+		)
+		(instances
+			(project "secure_clothes_system"
+				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8261,16 +8259,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 209.55 119.38 0)
+		(lib_id "Device:C")
+		(at 243.84 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bef84072-8442-4e55-9344-f99da7522164")
-		(property "Reference" "R3"
-			(at 212.09 118.1099 0)
+		(fields_autoplaced yes)
+		(uuid "bd2a4709-a229-47c5-ae68-d3f215b9fae6")
+		(property "Reference" "C15"
+			(at 247.65 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,8 +8277,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 212.09 120.6499 0)
+		(property "Value" "1uF"
+			(at 247.65 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,8 +8286,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.566 119.634 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 244.8052 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,8 +8295,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 209.55 119.38 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,8 +8304,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 209.55 119.38 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,8 +8313,8 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "RES 10K OHM 1% 1/10W 0603"
-			(at 209.55 119.38 0)
+		(property "Manufacturer" "Murata Electronics"
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,62 +8322,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "RC0603FR-0710KL"
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROVIDER" "Digikey"
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0,00612"
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W, 1/10W"
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "±100ppm/°C"
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "±1%"
-			(at 209.55 119.38 0)
+		(property "Mfg Part #" "GRM155Z71A105KE01D"
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8332,34 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 209.55 119.38 0)
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROVIDER" "Digikey"
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,01280"
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Descrip" "CAP CER 1UF 10V X7R 0402"
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,15 +8368,7 @@
 			)
 		)
 		(property "PLACE" ""
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 209.55 119.38 0)
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8412,23 +8376,57 @@
 			)
 		)
 		(property "CURRENT" ""
-			(at 209.55 119.38 0)
+			(at 243.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "TC" "X7R"
+			(at 247.65 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" ""
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol" ""
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOLTAGE" "10V"
+			(at 247.65 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "cb251008-2b6e-467d-bad0-ec8865aaa27f")
+			(uuid "d84fd921-1a82-4637-b418-dd9a37ea4ed8")
 		)
 		(pin "2"
-			(uuid "6dee81f8-f389-4044-b903-7f12eec82e9b")
+			(uuid "110ed1ab-48c2-4fa5-8f81-b593438a892b")
 		)
 		(instances
 			(project "secure_clothes_system"
 				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
-					(reference "R3")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8462,7 +8460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.4748 63.5 0)
 			(effects
 				(font
@@ -8471,7 +8469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
 			(at 91.44 59.69 0)
 			(effects
 				(font
@@ -8489,7 +8487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 91.44 59.69 0)
 			(effects
 				(font
@@ -8498,7 +8496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "CL10B105KP8NNNC"
+		(property "Mfg Part #" "GRM155Z71A105KE01D"
 			(at 91.44 59.69 0)
 			(effects
 				(font
@@ -8525,7 +8523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,00800"
+		(property "Price" "0,01280"
 			(at 91.44 59.69 0)
 			(effects
 				(font
@@ -8534,7 +8532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "CAP CER 1UF 10V X7R 0603"
+		(property "Descrip" "CAP CER 1UF 10V X7R 0402"
 			(at 91.44 59.69 0)
 			(effects
 				(font
@@ -8610,7 +8608,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 99.06 0)
+		(at 83.82 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8619,7 +8617,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd0ea554-a593-448a-9947-d25d838282f3")
 		(property "Reference" "C6"
-			(at 82.55 97.7899 0)
+			(at 87.63 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +8626,7 @@
 			)
 		)
 		(property "Value" "1.5pF"
-			(at 82.55 100.3299 0)
+			(at 87.63 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8635,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 79.7052 102.87 0)
+			(at 84.7852 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8644,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E1R5BA01-01.pdf"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8653,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8662,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8671,7 @@
 			)
 		)
 		(property "Mfg Part #" "GRM0335C1E1R5BA01D"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8680,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8689,7 @@
 			)
 		)
 		(property "PROVIDER" "Digikey"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8698,7 @@
 			)
 		)
 		(property "Price" "0,00578"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +8707,7 @@
 			)
 		)
 		(property "Descrip" "CAP CER 1.5PF 25V C0G/NP0 0201"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +8716,7 @@
 			)
 		)
 		(property "PLACE" ""
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +8724,7 @@
 			)
 		)
 		(property "VOLTAGE" "25V"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8733,7 @@
 			)
 		)
 		(property "CURRENT" ""
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8741,7 @@
 			)
 		)
 		(property "TC" "C0G, NP0"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +8750,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8758,7 @@
 			)
 		)
 		(property "Tol" "±0.1pF"
-			(at 78.74 99.06 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +8982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 63.5 0)
 			(effects
 				(font
@@ -8993,7 +8991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5458/CL10B103KO8WPNC_Spec.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -9011,7 +9009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "KEMET"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -9020,7 +9018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "CL10B103KO8WPNC"
+		(property "Mfg Part #" "C0402C103K3REC7411"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -9047,7 +9045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,01485"
+		(property "Price" "0,01989"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -9056,7 +9054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "CAP CER 10NF 16V X7R 0603"
+		(property "Descrip" "CAP CER 0402 10NF 25V X7R 10%"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -9107,7 +9105,7 @@
 				(hide yes)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "25V"
 			(at 99.06 63.4999 0)
 			(effects
 				(font
@@ -9192,6 +9190,179 @@
 			(project "secure_clothes_system"
 				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9151c05-52e1-45a7-9978-1a23389d5fe6")
+		(property "Reference" "C14"
+			(at 213.36 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 213.36 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 210.5152 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "GRM155Z71A105KE01D"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROVIDER" "Digikey"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0,01280"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Descrip" "CAP CER 1UF 10V X7R 0402"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CURRENT" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TC" "X7R"
+			(at 213.36 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOLTAGE" "10V"
+			(at 213.36 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "36b36bf2-27a1-4a7d-b2c9-157fe9ddb7a5")
+		)
+		(pin "2"
+			(uuid "5e9b6c67-f897-41c0-9eb1-7928d5d3bc87")
+		)
+		(instances
+			(project "secure_clothes_system"
+				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9291,7 +9462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 69.85 141.9352 0)
 			(effects
 				(font
@@ -9300,7 +9471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -9318,7 +9489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walsin Technology Corporation"
+		(property "Manufacturer" "YAGEO"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -9327,7 +9498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "0603N6R0D500CT"
+		(property "Mfg Part #" "CC0402BRNPO9BN6R0"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -9354,7 +9525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,00738"
+		(property "Price" "0,00839"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -9363,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "CAP CER 6PF 50V C0G/NP0 0603"
+		(property "Descrip" "CAP CER 6PF 50V C0G/NPO 0402"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -9414,7 +9585,7 @@
 				)
 			)
 		)
-		(property "Tol" "±0.5pF"
+		(property "Tol" "±0.1pF"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -9433,180 +9604,6 @@
 			(project "secure_clothes_system"
 				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 250.19 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef9cd8b3-337d-4daa-99be-7e3376e4402d")
-		(property "Reference" "C16"
-			(at 254 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 254 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 251.1552 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KO8NNNC_Spec.pdf"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "CL10A105KO8NNNC"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Descrip" "CAP CER 1UF 16V X5R 0603"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROVIDER" "Digikey"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0,00720"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 254 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "TC" "X5R"
-			(at 254 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLACE" ""
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol" "±10%"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6df836d-80bd-4347-9797-0db0579f82c3")
-		)
-		(pin "2"
-			(uuid "00cb7874-086a-40de-ada1-4b4887db8aab")
-		)
-		(instances
-			(project "secure_clothes_system"
-				(path "/62d9e645-71b1-4239-93d4-fd0a8a6c917b/3bd2b001-f63b-4215-89ba-452bd79230e3"
-					(reference "C16")
 					(unit 1)
 				)
 			)

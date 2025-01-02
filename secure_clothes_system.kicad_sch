@@ -1744,7 +1744,7 @@
 		(fields_autoplaced yes)
 		(uuid "190ea52a-572b-44a7-9d40-2e91799e28da")
 		(property "Reference" "R1"
-			(at 127 109.22 0)
+			(at 127 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,8 +1752,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "267K"
-			(at 127 111.76 0)
+		(property "Value" "52.3K"
+			(at 127 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.476 110.744 90)
 			(effects
 				(font
@@ -1797,7 +1797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,00510"
+		(property "Price" "0,00306"
 			(at 124.46 110.49 0)
 			(effects
 				(font
@@ -1815,7 +1815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "RC0603FR-07267KL"
+		(property "Mfg Part #" "RC0402FR-0752K3L"
 			(at 124.46 110.49 0)
 			(effects
 				(font
@@ -1833,7 +1833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "RES 267K OHM 1% 1/10W 0603"
+		(property "Descrip" "RES 52.3K OHM 1% 1/16W 0402"
 			(at 124.46 110.49 0)
 			(effects
 				(font
@@ -1874,20 +1874,22 @@
 				)
 			)
 		)
-		(property "Power" ""
+		(property "Power" "0.063W, 1/16W"
 			(at 124.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Tol" ""
+		(property "Tol" "±1%"
 			(at 124.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2247,34 +2249,32 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 80.01 96.52 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4834d568-2936-43a6-b271-4b9a8e648d59")
 		(property "Reference" "C1"
+			(at 76.2 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
 			(at 76.2 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 76.2 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 79.0448 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 80.9752 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A475KE15-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/863/CL05A475MP5NRNC_Spec.pdf"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -2300,7 +2300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -2309,7 +2309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,05871"
+		(property "Price" "0,01360"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -2327,7 +2327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "GRM188Z71A475KE15D"
+		(property "Mfg Part #" "CL05A475MP5NRNC"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -2336,7 +2336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "CAP CER 4.7UF 10V X7R 0603"
+		(property "Descrip" "CAP CER 4.7UF 10V X5R 0402"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -2354,13 +2354,13 @@
 				(hide yes)
 			)
 		)
-		(property "TC" "X7R"
-			(at 80.01 96.52 0)
+		(property "TC" "X5R"
+			(at 76.2 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "PLACE" ""
@@ -2372,13 +2372,12 @@
 			)
 		)
 		(property "VOLTAGE" "10V"
-			(at 76.2 99.0599 0)
+			(at 76.2 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "CURRENT" ""
@@ -2397,7 +2396,7 @@
 				)
 			)
 		)
-		(property "Tol" "±10%"
+		(property "Tol" "±20%"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -2803,7 +2802,7 @@
 		(fields_autoplaced yes)
 		(uuid "d447c529-b709-4cb7-873b-ed4a98ad612c")
 		(property "Reference" "C2"
-			(at 142.24 96.5199 0)
+			(at 142.24 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2811,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 142.24 99.0599 0)
+			(at 142.24 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.3952 102.87 0)
 			(effects
 				(font
@@ -2829,7 +2828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/926/CL_Series_MLCC_ds.pdf"
+		(property "Datasheet" "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R60J106ME15%23"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -2847,7 +2846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -2856,7 +2855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,02060"
+		(property "Price" "0,02240"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -2866,7 +2865,7 @@
 			)
 		)
 		(property "TC" "X5R"
-			(at 142.24 101.5999 0)
+			(at 142.24 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "CL21A106KPFNNNE"
+		(property "Mfg Part #" "GRM155R60J106ME15D"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -2892,13 +2891,13 @@
 				(hide yes)
 			)
 		)
-		(property "VOLTAGE" "10V"
-			(at 138.43 99.06 0)
+		(property "VOLTAGE" "6.3V"
+			(at 142.24 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "PROVIDER" "Digikey"
@@ -2910,7 +2909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Descrip" "CAP CER 10UF 10V X5R 0805"
+		(property "Descrip" "CAP CER 10UF 6.3V X5R 0402"
 			(at 138.43 99.06 0)
 			(effects
 				(font

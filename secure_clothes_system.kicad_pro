@@ -212,6 +212,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": true
@@ -472,7 +476,11 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(0, 255, 0)",
+      "/ESP32-C3/VDD3P3": "rgb(0, 0, 255)",
+      "/ESP32-C3/VDD_SPI": "rgb(255, 0, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -520,7 +528,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -538,7 +546,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Mfg Part #",
           "name": "Mfg Part #",
           "show": true
@@ -557,14 +565,14 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
