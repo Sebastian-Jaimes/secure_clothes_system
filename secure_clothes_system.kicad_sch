@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "62d9e645-71b1-4239-93d4-fd0a8a6c917b")
 	(paper "A4")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -96,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 0)
+						(xy 0 1.778) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -108,7 +112,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 2.54)
+						(xy 0 0.762) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -181,9 +185,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -256,7 +263,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -268,7 +275,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -317,11 +324,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L_Ferrite"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -388,8 +400,32 @@
 			)
 			(symbol "L_Ferrite_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
 					(end 0 -1.27)
 					(stroke
 						(width 0)
@@ -401,8 +437,8 @@
 				)
 				(arc
 					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -413,43 +449,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -2.794) (xy 1.016 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.778) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.762) (xy 1.016 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.254) (xy 1.016 0.762)
+						(xy 1.016 2.286) (xy 1.016 2.794)
 					)
 					(stroke
 						(width 0)
@@ -473,7 +473,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 2.286) (xy 1.016 2.794)
+						(xy 1.016 0.254) (xy 1.016 0.762)
 					)
 					(stroke
 						(width 0)
@@ -485,7 +485,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -2.286) (xy 1.524 -2.794)
+						(xy 1.016 -0.762) (xy 1.016 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -497,7 +497,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -1.27) (xy 1.524 -1.778)
+						(xy 1.016 -1.778) (xy 1.016 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -509,7 +509,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -0.254) (xy 1.524 -0.762)
+						(xy 1.016 -2.794) (xy 1.016 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -521,7 +521,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 0.762) (xy 1.524 0.254)
+						(xy 1.524 2.794) (xy 1.524 2.286)
 					)
 					(stroke
 						(width 0)
@@ -545,7 +545,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 2.794) (xy 1.524 2.286)
+						(xy 1.524 0.762) (xy 1.524 0.254)
 					)
 					(stroke
 						(width 0)
@@ -555,10 +555,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
+				(polyline
+					(pts
+						(xy 1.524 -0.254) (xy 1.524 -0.762)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -567,10 +567,22 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.286) (xy 1.524 -2.794)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -618,9 +630,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -691,18 +706,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -715,7 +718,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -739,7 +742,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -788,6 +803,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MSS_RegulatorLineal:TPS62842DGRR"
 			(exclude_from_sim no)
@@ -940,71 +956,17 @@
 				)
 			)
 			(symbol "TPS62842DGRR_0_0"
-				(pin power_out line
-					(at 12.7 1.27 180)
+				(pin power_in line
+					(at -12.7 7.62 0)
 					(length 2.54)
-					(name "VOS"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -3.81 0)
-					(length 2.54)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "VSET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1030,35 +992,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -12.7 7.62 0)
+				(pin input line
+					(at -12.7 -3.81 0)
 					(length 2.54)
-					(name "VIN"
+					(name "MODE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1084,11 +1028,84 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "VOS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "VSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "TPS62842DGRR_1_0"
 				(pin no_connect line
 					(at -12.7 5.08 0)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -1118,12 +1135,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1195,7 +1217,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1207,7 +1229,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1238,12 +1260,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1334,7 +1361,33 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "SECURE CLOTHES SYSTEM SCHEMATIC"
+		(exclude_from_sim no)
+		(at 20.066 25.4 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d585196-d7d5-4810-a889-cdce4f230f55")
+	)
+	(text "ESP32-C3"
+		(exclude_from_sim no)
+		(at 206.756 97.79 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "8388c06a-d3fe-458b-ad68-f787eb6ef75f")
 	)
 	(junction
 		(at 101.6 114.3)
@@ -1632,34 +1685,8 @@
 		)
 		(uuid "fa80b7ea-332b-4c02-a0dd-97d841ec4d30")
 	)
-	(text "SECURE CLOTHES SYSTEM SCHEMATIC"
-		(exclude_from_sim no)
-		(at 20.066 25.4 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d585196-d7d5-4810-a889-cdce4f230f55")
-	)
-	(text "ESP32-C3"
-		(exclude_from_sim no)
-		(at 206.756 97.79 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.8)
-				(bold yes)
-			)
-		)
-		(uuid "8388c06a-d3fe-458b-ad68-f787eb6ef75f")
-	)
 	(label "BATT"
 		(at 66.04 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3160,6 +3187,10 @@
 	(sheet
 		(at 182.88 85.09)
 		(size 48.26 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3200,4 +3231,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
