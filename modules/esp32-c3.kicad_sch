@@ -5,6 +5,7 @@
 	(uuid "659d84b9-fcfa-49c6-ba3c-8cada95f7f1c")
 	(paper "A4")
 	(title_block
+		(title "${TITLE}")
 		(date "2024-12-11")
 		(rev "${VERSION}")
 		(company "${COMPANY}")
@@ -1716,7 +1717,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 10.16 0)
+				(at -7.62 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1725,7 +1726,7 @@
 				)
 			)
 			(property "Value" "W25X40CLSN"
-				(at 2.54 10.16 0)
+				(at 2.54 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1751,7 +1752,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4Mbit Serial Flash memory, dual I/O SPI, SOIC-8"
+			(property "Description" "4Mbit / 512KiB Serial Flash memory, Standard/Dual I/O SPI, 2.3-3.6V, SOIC-8 (150 mil)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1813,7 +1814,7 @@
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "SCK"
+					(name "CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1831,7 +1832,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "DI(IO0)"
+					(name "DI/IO_{0}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1849,7 +1850,7 @@
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "DO(IO1)"
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2384,14 +2385,14 @@
 	)
 	(text "ESP32-C3 MICROCONTROLLER SCHEMATIC"
 		(exclude_from_sim no)
-		(at 21.082 24.638 0)
+		(at 101.092 23.876 0)
 		(effects
 			(font
 				(size 5.08 5.08)
 				(thickness 1.016)
 				(bold yes)
+				(italic yes)
 			)
-			(justify left bottom)
 		)
 		(uuid "d8767066-8178-49ee-bb8c-e3850872258a")
 	)
@@ -6104,7 +6105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4Mbit Serial Flash memory, dual I/O SPI, SOIC-8"
+		(property "Description" "4Mbit / 512KiB Serial Flash memory, Standard/Dual I/O SPI, 2.3-3.6V, SOIC-8 (150 mil)"
 			(at 224.79 80.01 0)
 			(effects
 				(font
@@ -6864,7 +6865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Antenna:PCB_ANTENNA_2,4GHz_50Ohm"
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
 			(at 45.72 92.71 0)
 			(effects
 				(font

@@ -5,6 +5,7 @@
 	(uuid "62d9e645-71b1-4239-93d4-fd0a8a6c917b")
 	(paper "A4")
 	(title_block
+		(title "${TITLE}")
 		(date "2024-12-11")
 		(rev "${VERSION}")
 		(company "${COMPANY}")
@@ -1366,20 +1367,20 @@
 	)
 	(text "SECURE CLOTHES SYSTEM SCHEMATIC"
 		(exclude_from_sim no)
-		(at 20.066 25.4 0)
+		(at 93.726 23.368 0)
 		(effects
 			(font
 				(size 5.08 5.08)
 				(thickness 1.016)
 				(bold yes)
+				(italic yes)
 			)
-			(justify left bottom)
 		)
 		(uuid "4d585196-d7d5-4810-a889-cdce4f230f55")
 	)
 	(text "ESP32-C3"
 		(exclude_from_sim no)
-		(at 206.756 97.79 0)
+		(at 205.486 97.79 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -3197,7 +3198,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 178 242 187 1.0000)
 		)
 		(uuid "3bd2b001-f63b-4215-89ba-452bd79230e3")
 		(property "Sheetname" "ESP32-C3"
@@ -3207,6 +3208,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Sheetfile" "modules/esp32-c3.kicad_sch"
@@ -3216,6 +3218,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
